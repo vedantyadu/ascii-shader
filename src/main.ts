@@ -17,7 +17,6 @@ document.querySelector('#app')?.appendChild(renderer.domElement)
 renderer.domElement.id = 'renderer'
 
 
-const geometry = new THREE.BoxGeometry(2, 2, 2)
 const shaderMaterial = new THREE.ShaderMaterial({
   vertexShader: vertex_shader,
   fragmentShader: fragment_shader,
